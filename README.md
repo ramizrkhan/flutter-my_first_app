@@ -18,3 +18,4 @@ Created First Text Widget and app from scratch.<br />
 1] Changed Statelesswidget to statefulwidgit for changing question on clicking button.<br />
 2] Changed class MyAppState and var _questionIndex to private <br />
 3] Created new , custom Widget <br />
+4] Added container for alignment of question in center, also changed font size <br />
