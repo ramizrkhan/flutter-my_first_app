@@ -17,4 +17,4 @@ Created First Text Widget and app from scratch.<br />
 # 17/09/2019 
 1] Changed Statelesswidget to statefulwidgit for changing question on clicking button.<br />
 2] Changed class MyAppState and var _questionIndex to private <br />
-
+3] Created new , custom Widget <br />
