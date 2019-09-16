@@ -15,5 +15,6 @@ Created First Text Widget and app from scratch.<br />
 3] Added function for RaisedButton.<br />
 
 # 17/09/2019 
-1] Changed Statelesswidget to statefulwidgit for changing question on clicking button..
+1] Changed Statelesswidget to statefulwidgit for changing question on clicking button.<br />
+2] Changed class MyAppState and var _questionIndex to private <br />
 
