@@ -20,3 +20,4 @@ Created First Text Widget and app from scratch.<br />
 3] Created new , custom Widget <br />
 4] Added container for alignment of question in center, also changed font size <br />
 5] Added margin to question widget container.<br />
+6] Added Answer button in saparate new widget passed function pointer in Answer widget<br />
