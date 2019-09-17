@@ -24,3 +24,4 @@ Created First Text Widget and app from scratch.<br />
 7] Changed question list to question Map <br />
 8] Adde button click loop on questions map (Reset value of _questionIndex to 0 index) also added answers in questions Map<br /> 
 9] Changed Answer widget to dynamic Answers and create Raisebuttons.<br />
+10] Changed Map questionIndex logic using turnary opratior on widget <br />
