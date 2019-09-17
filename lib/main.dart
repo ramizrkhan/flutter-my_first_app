@@ -18,18 +18,18 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   var _questionIndex = 0;
-  var questions = [
+  static const questions = [
     {
       'questionText': "What\'s your favorite color ?",
-      'answer': ['Black', 'Red', 'Blue', 'Green'],
+      'answers': ['Black', 'Red', 'Blue', 'Green'],
     },
     {
       'questionText': "What\'s your favorite animal ?",
-      'answer': ['Lion', 'OX', 'Elefent', 'Snake'],
+      'answers': ['Lion', 'OX', 'Elefent', 'Snake'],
     },
     {
       'questionText': "Who\'s your favorite actor ?",
-      'answer': ['Salman', 'Tom cruse', 'Rock', 'Amitabh'],
+      'answers': ['Salman', 'Tom cruse', 'Rock', 'Amitabh'],
     },
   ];
   void _answerQuestion() {
@@ -55,9 +55,10 @@ class _MyAppState extends State<MyApp> {
             Question(
               questions[_questionIndex]['questionText'],
             ),
-            Answer(_answerQuestion),
-            Answer(_answerQuestion),
-            Answer(_answerQuestion),
+            ...(questions[_questionIndex]['answers'] as List<String>)
+                .map((answer) {
+              return Answer(_answerQuestion, answer);
+            }).toList()
           ],
         ),
       ),

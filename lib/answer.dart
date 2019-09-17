@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 
 class Answer extends StatelessWidget {
   final Function selectHelper;
-  Answer(this.selectHelper);
+  final String answerText;
+  Answer(this.selectHelper, this.answerText);
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
@@ -10,7 +11,7 @@ class Answer extends StatelessWidget {
       // color: Colors.grey,
       child: RaisedButton(
         child: Text(
-          "Answer 1",
+          answerText,
         ),
         onPressed: selectHelper,
         textColor: Colors.greenAccent,
