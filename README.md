@@ -27,3 +27,4 @@ Created First Text Widget and app from scratch.<br />
 10] Changed Map questionIndex logic using ternary operator on widget <br />
 # 19/09/2019
 1] Splitting app in to widget Separated Question widget in Quiz from main file and shown Result in another widget
+2] Added score in a _questions list answers Map , Score calculated , used getter and if else ladder , added reset button . 
